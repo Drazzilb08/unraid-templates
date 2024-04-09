@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>daps</Name>
+  <Repository>drazzilb08/daps</Repository>
+  <Registry>https://hub.docker.com/r/drazzilb08/daps</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Drazzilb08/daps</Project>
+  <Overview>DAPS (Drazzilb's Arr PMM Scripts) A collection of useful scripts for media management and automation&#xD;
+&#xD;
+Support for this container can be found on Trash's Guide's Discord server https://trash-guides.info/discord</Overview>
+  <Category>Tools: Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/Drazzilb08/daps/blob/master/daps_logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1712670936</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data" Target="/posters" Default="" Mode="rw" Description="Location where gDrive sync will place posters and renamer will pull posters from" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="PMM Assets" Target="/pmm" Default="" Mode="rw" Description="The location for your Plex-Meta-Manager's assets directory" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Config" Target="/config" Default="" Mode="rw" Description="Location for your appdata" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
+</Container>

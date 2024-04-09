@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/161053-support-daps-drazzilbs-arr-pmm-scripts-container/</Support>
   <Project>https://github.com/Drazzilb08/daps</Project>
   <Overview>DAPS (Drazzilb's Arr PMM Scripts) A collection of useful scripts for media management and automation&#xD;
 &#xD;
@@ -19,7 +19,7 @@ Support for this container can be found on Trash's Guide's Discord server https:
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1712670936</DateInstalled>
+  <DateInstalled>1712671959</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>

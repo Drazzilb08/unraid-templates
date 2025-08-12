@@ -13,7 +13,7 @@
 &#xD;
 Support for this container can be found on Trash's Guide's Discord server https://trash-guides.info/discord</Overview>
   <Category>Tools: Other:</Category>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/Drazzilb08/daps/blob/master/daps_logo.png</Icon>
   <ExtraParams/>

@@ -19,10 +19,10 @@ Support for this container can be found on Trash's Guide's Discord server https:
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1712671959</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <Config Name="WebUI Port" Target="8000" Default="8000" Mode="tcp" Description="Port for the web interface" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="Posters" Target="/posters" Default="" Mode="rw" Description="Location where gDrive sync will place posters and renamer will pull posters from" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="PMM Assets" Target="/pmm" Default="" Mode="rw" Description="The location for your Plex-Meta-Manager's assets directory" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Config" Target="/config" Default="" Mode="rw" Description="Location for your appdata" Type="Path" Display="always" Required="true" Mask="false"/>
